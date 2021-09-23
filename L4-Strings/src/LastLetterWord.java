@@ -32,7 +32,8 @@ public class LastLetterWord {
     }
 
     public static String lastThree(String word){
-          return word.substring(word.length()-3);
+
+        return word.substring(word.length()-3);
     }
 
 }
