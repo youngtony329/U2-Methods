@@ -26,5 +26,11 @@ public class SimpleDrawingGUI {
         }
 
 
+        public void paintComponent(Graphics g){
+
+            g.fillRect(50,50,100,200);
+
+        }
+
     }
 }
